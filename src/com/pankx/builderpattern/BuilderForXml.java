@@ -22,7 +22,6 @@ import java.io.IOException;
 public class BuilderForXml {
     public static ActorBuilder getBean(){
         try {
-
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
             Document document = documentBuilder.parse(new File("src/com/pankx/builderpattern/BuilderConfig.xml"));
