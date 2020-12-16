@@ -41,7 +41,7 @@ class AbstractPrototypeimpl extends AbstractPrototype {
 }
 
 /**
- * 原型模式测试
+ * 原型模式测试类或客户端类
  */
 class PrototypeTest {
     public static void main(String[] args) {
