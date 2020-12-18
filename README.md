@@ -6,3 +6,5 @@
   4. [建造者模式](/src/com/pankx/builderpattern)
   5. [原型模式](/src/com/pankx/prototype)
   6. [单例模式](/src/com/pankx/singletonPattern)
+## 结构型设计模式
+  1.[适配器模式](/src/com/pankx/adapterpattern)  
