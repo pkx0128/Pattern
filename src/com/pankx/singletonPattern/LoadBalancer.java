@@ -47,6 +47,10 @@ public class LoadBalancer {
         serverList.remove(obj);
     }
 
+    /**
+     * 获取服务器
+     * @return 返回集合中的服务器名
+     */
     public String getServer(){
         Random random =  new Random();
         String server = null;
