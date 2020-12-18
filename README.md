@@ -5,4 +5,4 @@
   3. [抽象工厂模式](/src/com/pankx/abstractfactory)
   4. [建造者模式](/src/com/pankx/builderpattern)
   5. [原型模式](/src/com/pankx/prototype)
-  6. 单例模式
+  6. [单例模式](/src/com/pankx/singletonPattern)
