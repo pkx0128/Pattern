@@ -6,7 +6,8 @@ package com.pankx.adapterpattern.carcontroller;
  */
 public class Test {
     public static void main(String[] args) {
-        CarController carController = new Adapter();
+//        CarController carController = new Adapter();
+        CarController carController = (Adapter)XMLUtil.getObject();
         carController.move();
         carController.phonate();
         carController.twinkle();
