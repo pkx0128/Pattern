@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<object>
+    <className>com.pankx.bridgepattern.JPGImage</className>
+    <className>com.pankx.bridgepattern.LinuxImage</className>
+</object>

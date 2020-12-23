@@ -6,8 +6,8 @@ package com.pankx.bridgepattern;
  */
 public class BridgePatternTest {
     public static void main(String[] args) {
-        Image image = new JPGImage();
-        Imageimpl imageimpl = new WindowsImage();
+        Image image = (Image)GetObjectForXml.getBean("image");
+        Imageimpl imageimpl = (Imageimpl)GetObjectForXml.getBean("os");
         image.setImageimpl(imageimpl);
         image.parseFile("小明");
     }
