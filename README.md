@@ -8,3 +8,4 @@
   6. [单例模式](/src/com/pankx/singletonPattern)
 ## 结构型设计模式
   1.[适配器模式](/src/com/pankx/adapterpattern)  
+  2.[适配器模式](/src/com/pankx/bridgepattern)
