@@ -7,5 +7,6 @@
   5. [原型模式](/src/com/pankx/prototype)
   6. [单例模式](/src/com/pankx/singletonPattern)
 ## 结构型设计模式
-  1.[适配器模式](/src/com/pankx/adapterpattern)  
-  2.[桥接模式](/src/com/pankx/bridgepattern)
+  1. [适配器模式](/src/com/pankx/adapterpattern)  
+  2. [桥接模式](/src/com/pankx/bridgepattern)
+  3. [组合模式](/src/com/pankx/compositePattern)
