@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<className>
+    <myFacade>com.pankx.facadepattern.EncryptFacade</myFacade>
+</className>

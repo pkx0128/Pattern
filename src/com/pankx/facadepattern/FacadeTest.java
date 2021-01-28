@@ -9,7 +9,7 @@ import com.pankx.facadepattern.abstractfacadepattern.NewEncryptFacade;
  */
 public class FacadeTest {
     public static void main(String[] args) {
-        AbstractEncryptFacade encryptFacade = new NewEncryptFacade();
+        AbstractEncryptFacade encryptFacade = GetFacadeForXml.getEncryptFacade();
         encryptFacade.fileEncrypt("abcd","abcd.txt");
     }
 }
