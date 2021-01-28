@@ -5,11 +5,13 @@ package com.pankx.facadepattern;
  * @date 2021/1/27 12:21 上午
  */
 
+import com.pankx.facadepattern.abstractfacadepattern.AbstractEncryptFacade;
+
 /**
  * 外观模式中的外观类
  *
  */
-public class EncryptFacade {
+public class EncryptFacade extends AbstractEncryptFacade {
     /**
      * 维持子系统FileReader,FileWriter,CipherMachine一个对象的引用
      */
@@ -22,7 +24,7 @@ public class EncryptFacade {
         fileWriter = new FileWriter();
         cipherMachine = new CipherMachine();
     }
-
+    @Override
     public void fileEncrypt(String encryptstr,String filename) {
         String fstr = fileReader.read(filename);
         String estr = cipherMachine.encrypt(fstr);
