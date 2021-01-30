@@ -11,3 +11,4 @@
   2. [桥接模式](/src/com/pankx/bridgepattern)
   3. [组合模式](/src/com/pankx/compositePattern)
   4. [外观模式](/src/com/pankx/facadepattern)
+  5. [享元模式](/src/com/pankx/flyweightPattern)
